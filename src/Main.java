@@ -1,3 +1,4 @@
+import datastructure.BinarySearchTree;
 import search.BinarySearch;
 
 import java.util.ArrayList;
@@ -36,8 +37,17 @@ public class Main {
         }System.out.println("}");
     }
 
-    public static void main(String[] args) {
+    public static void treeTest(){
+        BinarySearchTree<Integer> tree = new BinarySearchTree<>();
+        tree.insert(5);
+        tree.insert(1);
+        tree.insert(10);
 
+        System.out.println(tree.contains(10));
+    }
+
+    public static void main(String[] args) {
+        new Main().treeTest();
     }
 
 }
