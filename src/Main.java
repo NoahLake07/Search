@@ -1,5 +1,6 @@
 import datastructure.BinarySearchTree;
 import search.BinarySearch;
+import sort.IterativeSorting;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -46,8 +47,36 @@ public class Main {
         System.out.println(tree.contains(10));
     }
 
+    public static void sortTest(String type){
+        int[] x = new int[]{
+                56,1,67,2,6,2,57,8
+        };
+
+        printArr(x);
+        System.out.println();
+
+        int[] boohoogi;
+        if(type.equals("selection")) {
+            boohoogi = IterativeSorting.selectionSort(x);
+        } else if (type.equals("bubble")){
+            boohoogi = IterativeSorting.bubbleSort(x);
+        } else if (type.equals("insertion")){
+            boohoogi = IterativeSorting.selectionSort(x);
+        } else {
+            boohoogi = null;
+        }
+
+        printArr(boohoogi);
+    }
+
+    public static void printArr(int[] x){
+        for (int i = 0; i < x.length-1; i++) {
+            System.out.print(x[i] + " ");
+        }
+    }
+
     public static void main(String[] args) {
-        new Main().treeTest();
+        new Main().sortTest("insertion");
     }
 
 }
