@@ -1,4 +1,4 @@
-package sort;
+package datastructure.sort;
 
 public class RecursiveSorting {
 
@@ -42,7 +42,7 @@ public class RecursiveSorting {
         // initial index of the merged array
         int k = l;
 
-        // sort
+        // datastructure.sort
         while(i<n1 && j<n2){
             // copy the smaller value into the main array
             if(leftSub[i] <= rightSub[j]){

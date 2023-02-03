@@ -1,9 +1,8 @@
 import datastructure.BinarySearchTree;
-import search.BinarySearch;
-import sort.IterativeSorting;
+import datastructure.search.BinarySearch;
+import datastructure.sort.IterativeSorting;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Main {
 

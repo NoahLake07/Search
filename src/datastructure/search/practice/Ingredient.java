@@ -1,4 +1,4 @@
-package search.practice;
+package datastructure.search.practice;
 
 public class Ingredient implements Comparable {
 

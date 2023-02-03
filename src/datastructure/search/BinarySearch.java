@@ -1,12 +1,12 @@
-package search;
+package datastructure.search;
 
 public class BinarySearch {
 
     /**
-     * Performs a binary search on an int[] and searches for a given int target. The method returns
+     * Performs a binary datastructure.search on an int[] and searches for a given int target. The method returns
      * the index the target is at, but if the target is not found, the method will return '-1'.
-     * @param arr int array to search
-     * @param target int target to search for
+     * @param arr int array to datastructure.search
+     * @param target int target to datastructure.search for
      * @return the index the target is at in the given int array (arr)
      */
     public static int iterativeBinarySearch(int[] arr, int target){

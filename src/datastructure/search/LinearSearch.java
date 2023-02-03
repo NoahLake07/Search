@@ -1,4 +1,4 @@
-package search;
+package datastructure.search;
 
 public class LinearSearch<T> {
 

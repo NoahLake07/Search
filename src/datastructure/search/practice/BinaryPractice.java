@@ -1,6 +1,4 @@
-package search.practice;
-
-import search.practice.Ingredient;
+package datastructure.search.practice;
 
 public class BinaryPractice {
 
@@ -78,7 +76,7 @@ public class BinaryPractice {
         int left = 0;
         int right = years.length-1;
 
-        // while there is still data to search, keep searching
+        // while there is still data to datastructure.search, keep searching
         while (left <= right){
             int mid = left+left/2;
             if(years[mid] == target){
@@ -147,14 +145,14 @@ public class BinaryPractice {
         return -1;
     }
 
-    // QUESTION 5: ingredient search
+    // QUESTION 5: ingredient datastructure.search
     public static int searchIngredients(){
         Ingredient[] ingredients = {new Ingredient("cinnamon", 12.25f),
                 new Ingredient("flour", 400.50f), new Ingredient("pepper", 10.56f),
                 new Ingredient("salt", 40.78f), new Ingredient("salt", 50), new Ingredient("sugar")};
         Ingredient target = new Ingredient("pepper");
 
-        // ! perform binary search
+        // ! perform binary datastructure.search
 
         return -1;
     }
